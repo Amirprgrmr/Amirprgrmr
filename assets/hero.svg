@@ -2,30 +2,29 @@
   <defs>
     <!-- Background Gradients -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0c1017"/>
-      <stop offset="50%" stop-color="#111620"/>
-      <stop offset="100%" stop-color="#090d14"/>
+      <stop offset="0%" stop-color="#0b0e14"/>
+      <stop offset="50%" stop-color="#10151f"/>
+      <stop offset="100%" stop-color="#080b10"/>
     </linearGradient>
 
     <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#151b26"/>
-      <stop offset="100%" stop-color="#0e131d"/>
+      <stop offset="0%" stop-color="#141a24"/>
+      <stop offset="100%" stop-color="#0d121b"/>
     </linearGradient>
 
-    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="accentBorder" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
-      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.2"/>
+      <stop offset="40%" stop-color="#3b82f6" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.3"/>
     </linearGradient>
 
     <linearGradient id="glowPulse" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.12"/>
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Subtle Drop Shadow -->
     <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.45"/>
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.5"/>
     </filter>
 
     <style>
@@ -33,35 +32,35 @@
       .font-mono { font-family: "JetBrains Mono", "Fira Code", SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
 
       @keyframes pulseLight {
-        0%, 100% { opacity: 0.8; r: 4.5px; }
-        50% { opacity: 0.3; r: 6.5px; }
+        0%, 100% { opacity: 0.85; r: 4.5px; }
+        50% { opacity: 0.35; r: 6.5px; }
       }
 
       .pulse-dot {
-        animation: pulseLight 2.8s ease-in-out infinite;
+        animation: pulseLight 3s ease-in-out infinite;
       }
     </style>
   </defs>
 
-  <!-- Canvas Container with Border -->
-  <rect x="2" y="2" width="916" height="316" rx="16" fill="url(#bgGrad)" stroke="#263143" stroke-width="1.5" filter="url(#softShadow)"/>
+  <!-- Canvas Container with Rounded Border -->
+  <rect x="2" y="2" width="916" height="316" rx="16" fill="url(#bgGrad)" stroke="#232e3f" stroke-width="1.5" filter="url(#softShadow)"/>
 
-  <!-- Top Decorative Accent Line -->
-  <path d="M 18 3 L 902 3" stroke="url(#accentLine)" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Top Accent Highlight -->
+  <path d="M 18 3 L 902 3" stroke="url(#accentBorder)" stroke-width="2.5" stroke-linecap="round"/>
 
   <!-- Window Header Bar -->
   <g transform="translate(24, 22)">
-    <!-- Window Control Dots -->
-    <circle cx="0" cy="0" r="5.5" fill="#f43f5e" opacity="0.85"/>
-    <circle cx="16" cy="0" r="5.5" fill="#fbbf24" opacity="0.85"/>
-    <circle cx="32" cy="0" r="5.5" fill="#10b981" opacity="0.85"/>
+    <!-- Terminal Dots -->
+    <circle cx="0" cy="0" r="5" fill="#f43f5e" opacity="0.8"/>
+    <circle cx="15" cy="0" r="5" fill="#fbbf24" opacity="0.8"/>
+    <circle cx="30" cy="0" r="5" fill="#10b981" opacity="0.8"/>
 
-    <!-- Terminal Breadcrumb / Session Info -->
-    <text x="56" y="4" fill="#64748b" class="font-mono" font-size="12" font-weight="500">
+    <!-- Terminal Breadcrumb -->
+    <text x="52" y="4" fill="#64748b" class="font-mono" font-size="12" font-weight="500">
       amirprgrmr@parch-linux <tspan fill="#334155">::</tspan> ~/portfolio
     </text>
 
-    <!-- Right Live Status Indicator -->
+    <!-- Status Badge -->
     <g transform="translate(820, 0)">
       <circle cx="-16" cy="0" r="4.5" fill="#10b981" class="pulse-dot"/>
       <circle cx="-16" cy="0" r="3.5" fill="#34d399"/>
@@ -69,73 +68,73 @@
     </g>
   </g>
 
-  <!-- Header Separator Line -->
-  <line x1="2" y1="46" x2="918" y2="46" stroke="#1e293b" stroke-width="1"/>
+  <!-- Divider Line -->
+  <line x1="2" y1="46" x2="918" y2="46" stroke="#1a2333" stroke-width="1"/>
 
-  <!-- ================= LEFT COLUMN: IDENTITY & STACK ================= -->
+  <!-- ================= LEFT COLUMN: HERO IDENTITY ================= -->
   <g transform="translate(36, 82)">
-    <!-- Terminal Prompt Line -->
+    <!-- Command Prompt Line -->
     <g>
       <text x="0" y="0" fill="#38bdf8" class="font-mono" font-size="13" font-weight="600">❯</text>
       <text x="16" y="0" fill="#7dd3fc" class="font-mono" font-size="12.5" font-weight="500">whoami</text>
       <text x="80" y="0" fill="#475569" class="font-mono" font-size="12.5">--verbose</text>
     </g>
 
-    <!-- Full Name -->
+    <!-- Main Title / Full Name -->
     <text x="0" y="38" fill="#f8fafc" class="font-sans" font-size="28" font-weight="700" letter-spacing="-0.5">
       Amirali Homayoonzadeh
     </text>
 
-    <!-- Role / Title -->
+    <!-- Role / Tagline -->
     <text x="0" y="66" fill="#94a3b8" class="font-sans" font-size="15" font-weight="500">
       Full-Stack Developer <tspan fill="#38bdf8">·</tspan> UI/UX Engineer <tspan fill="#38bdf8">·</tspan> Linux Enthusiast
     </text>
 
-    <!-- Short Philosophy / Bio Line -->
+    <!-- Philosophy -->
     <text x="0" y="96" fill="#64748b" class="font-sans" font-size="13" font-weight="400">
       Crafting resilient web architectures, refined user interfaces, and systems software.
     </text>
 
-    <!-- Tech Badges / Pills Row -->
+    <!-- Tech Badges -->
     <g transform="translate(0, 126)">
-      <!-- Next.js Badge -->
+      <!-- Next.js -->
       <g transform="translate(0, 0)">
-        <rect width="78" height="26" rx="6" fill="#151d2a" stroke="#263449" stroke-width="1"/>
+        <rect width="78" height="26" rx="6" fill="#141c27" stroke="#243142" stroke-width="1"/>
         <text x="39" y="17" text-anchor="middle" fill="#e2e8f0" class="font-mono" font-size="11" font-weight="600">Next.js</text>
       </g>
 
-      <!-- TypeScript Badge -->
+      <!-- TypeScript -->
       <g transform="translate(86, 0)">
-        <rect width="96" height="26" rx="6" fill="#151d2a" stroke="#263449" stroke-width="1"/>
+        <rect width="96" height="26" rx="6" fill="#141c27" stroke="#243142" stroke-width="1"/>
         <text x="48" y="17" text-anchor="middle" fill="#38bdf8" class="font-mono" font-size="11" font-weight="600">TypeScript</text>
       </g>
 
-      <!-- React Badge -->
+      <!-- React -->
       <g transform="translate(190, 0)">
-        <rect width="68" height="26" rx="6" fill="#151d2a" stroke="#263449" stroke-width="1"/>
+        <rect width="68" height="26" rx="6" fill="#141c27" stroke="#243142" stroke-width="1"/>
         <text x="34" y="17" text-anchor="middle" fill="#e2e8f0" class="font-mono" font-size="11" font-weight="600">React</text>
       </g>
 
-      <!-- Strapi Badge -->
+      <!-- Strapi 5 -->
       <g transform="translate(266, 0)">
-        <rect width="76" height="26" rx="6" fill="#151d2a" stroke="#263449" stroke-width="1"/>
+        <rect width="76" height="26" rx="6" fill="#141c27" stroke="#243142" stroke-width="1"/>
         <text x="38" y="17" text-anchor="middle" fill="#a78bfa" class="font-mono" font-size="11" font-weight="600">Strapi 5</text>
       </g>
 
-      <!-- C++ Badge -->
+      <!-- C++ -->
       <g transform="translate(350, 0)">
-        <rect width="56" height="26" rx="6" fill="#151d2a" stroke="#263449" stroke-width="1"/>
+        <rect width="56" height="26" rx="6" fill="#141c27" stroke="#243142" stroke-width="1"/>
         <text x="28" y="17" text-anchor="middle" fill="#38bdf8" class="font-mono" font-size="11" font-weight="600">C++</text>
       </g>
 
-      <!-- Parch Linux Badge -->
+      <!-- Parch Linux -->
       <g transform="translate(414, 0)">
-        <rect width="102" height="26" rx="6" fill="#151d2a" stroke="#263449" stroke-width="1"/>
+        <rect width="102" height="26" rx="6" fill="#141c27" stroke="#243142" stroke-width="1"/>
         <text x="51" y="17" text-anchor="middle" fill="#94a3b8" class="font-mono" font-size="11" font-weight="600">Parch Linux</text>
       </g>
     </g>
 
-    <!-- Location & Status Footer Line inside Left Column -->
+    <!-- Location & Status Line -->
     <g transform="translate(0, 186)">
       <text x="0" y="0" fill="#475569" class="font-mono" font-size="11.5">
         <tspan fill="#38bdf8">loc:</tspan> Tehran, IR <tspan fill="#334155">|</tspan> <tspan fill="#38bdf8">focus:</tspan> High-Concurrency &amp; UI Polish
@@ -145,56 +144,36 @@
 
   <!-- ================= RIGHT COLUMN: CODE SNIPPET CARD ================= -->
   <g transform="translate(564, 72)">
-    <!-- Code Box Background -->
-    <rect width="320" height="216" rx="10" fill="url(#cardGrad)" stroke="#263449" stroke-width="1.2"/>
-
-    <!-- Subtle Inner Glow / Accent on top of card -->
+    <rect width="320" height="216" rx="10" fill="url(#cardGrad)" stroke="#232f41" stroke-width="1.2"/>
     <path d="M 1 10 C 1 5 5 1 10 1 L 310 1 C 315 1 319 5 319 10 L 319 36 L 1 36 Z" fill="url(#glowPulse)"/>
-    <line x1="0" y1="36" x2="320" y2="36" stroke="#1e293b" stroke-width="1"/>
+    <line x1="0" y1="36" x2="320" y2="36" stroke="#1a2333" stroke-width="1"/>
 
-    <!-- Code Card Title -->
     <text x="16" y="23" fill="#64748b" class="font-mono" font-size="11" font-weight="600">
       ⚡ profile.config.ts
     </text>
 
-    <!-- Code Content -->
     <g transform="translate(18, 58)" class="font-mono" font-size="11.5" line-height="1.5">
-      <!-- Line 1 -->
       <text x="0" y="0">
         <tspan fill="#ff7b72">export const</tspan> <tspan fill="#79c0ff">engineer</tspan> <tspan fill="#ff7b72">=</tspan> <tspan fill="#e2e8f0">{</tspan>
       </text>
-
-      <!-- Line 2 -->
       <text x="12" y="20">
         <tspan fill="#79c0ff">handle</tspan><tspan fill="#ff7b72">:</tspan> <tspan fill="#a5d6ff">"amirprgrmr"</tspan><tspan fill="#e2e8f0">,</tspan>
       </text>
-
-      <!-- Line 3 -->
       <text x="12" y="40">
         <tspan fill="#79c0ff">mindset</tspan><tspan fill="#ff7b72">:</tspan> <tspan fill="#a5d6ff">"problem-solver"</tspan><tspan fill="#e2e8f0">,</tspan>
       </text>
-
-      <!-- Line 4 -->
       <text x="12" y="60">
         <tspan fill="#79c0ff">testedInProd</tspan><tspan fill="#ff7b72">:</tspan> <tspan fill="#79c0ff">true</tspan><tspan fill="#e2e8f0">,</tspan>
       </text>
-
-      <!-- Line 5 -->
       <text x="12" y="80">
         <tspan fill="#79c0ff">provenLoad</tspan><tspan fill="#ff7b72">:</tspan> <tspan fill="#a5d6ff">"400 concurrent users"</tspan><tspan fill="#e2e8f0">,</tspan>
       </text>
-
-      <!-- Line 6 -->
       <text x="12" y="100">
-        <tspan fill="#79c0ff">workstation</tspan><tspan fill="#ff7b72">:</tspan> <tspan fill="#a5d6ff">"Parch / Wayland"</tspan>
+        <tspan fill="#79c0ff">os</tspan><tspan fill="#ff7b72">:</tspan> <tspan fill="#a5d6ff">"Parch Linux (Arch)"</tspan>
       </text>
-
-      <!-- Line 7 -->
       <text x="0" y="120">
         <tspan fill="#e2e8f0">};</tspan>
       </text>
-
-      <!-- Line 8: Function Call / Execution -->
       <text x="0" y="142">
         <tspan fill="#38bdf8">engineer</tspan><tspan fill="#e2e8f0">.</tspan><tspan fill="#d2a8ff">shipReliableSoftware</tspan><tspan fill="#e2e8f0">();</tspan>
       </text>
