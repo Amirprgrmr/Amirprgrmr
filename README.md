@@ -37,11 +37,12 @@ life();
 
 Curated production work, interactive web systems, and high-signal tools:
 
-#### 🎓 [Taleqani School Online Exam System](https://amirprgrmr.ir/fa/project/taleqanischoolonlineexamsystem)
-High-concurrency educational platform engineered for simultaneous school-wide examinations.
+#### 🎓 [Taleqani School Online Exam System](https://amirprgrmr.ir/fa/project/taleqanischoolonlineexamsystem) · [Live Platform](https://tests.taleqanischool.ir)
+A comprehensive, secure, and user-friendly full-stack EdTech platform engineered for institutional examinations.
 - **Stress-Tested in Production:** Reliably served **~400 concurrent students** within a single hour and processed **3,545+ submitted answers** with zero downtime or data loss.
-- **Key Focus:** Backend resilience, real-time submission synchronization, and a clean, distraction-free examination interface.
-- `Next.js` · `REST API` · `High Concurrency` · `Database Architecture`
+- **Student-Centric UX:** Hyper-focused, distraction-free examination interface equipped with interval auto-save and built-in interactive tools (drawing whiteboard, image uploads).
+- **Security & Live Telemetry:** Real-time administrative monitoring, advanced anti-cheat behavioral detection, dynamic question/option shuffling, and automated report cards.
+- `PHP` · `Modern Web Technologies` · `Full-Stack Development` · `UI/UX Engineering` · `Real-Time Telemetry` · `High Concurrency`
 
 #### 🎸 [Arpeggio Guitars — 3D Interactive Showcase](https://amirprgrmr.ir/portfolio/guitar/)
 An immersive WebGL & 3D product showcase for custom electric guitars.
