@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=1100&color=38BDF8&center=true&vCenter=true&width=700&lines=Full-Stack+Web+Developer;UI%2FUX+Engineer+%26+Design+Systems;Parch+Linux+Native+%7C+Bash+%26+Tools;Building+Tested+%26+Scalable+Products" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=1100&color=38BDF8&center=true&vCenter=true&width=700&lines=Full-Stack+Web+Developer;UI%2FUX+Designer+%26+Web+Design;Parch+Linux+Native+%7C+Bash+%26+Tools;Building+Clean+%26+Scalable+Products" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 ### 👋 About Me
 
-I am a 15-year-old software engineer and full-stack developer who lives in the world of **Linux (Parch / Arch)**, modern web architectures, and deliberate **UI/UX engineering**.
+I am a 15-year-old full-stack web developer and UI/UX designer who lives in the world of **Linux (Parch / Arch)**, modern web architectures, and deliberate **UI/UX design**.
 
 I don't just write code — I build finished, reliable digital products that balance robust backend logic with clean, intentional aesthetics. For me, software development is about solving concrete problems and refining every layer until it functions seamlessly in production.
 
@@ -38,11 +38,11 @@ life();
 Curated production work, interactive web systems, and high-signal tools:
 
 #### 🎓 [Taleqani School Online Exam System](https://amirprgrmr.ir/fa/project/taleqanischoolonlineexamsystem) · [Live Platform](https://tests.taleqanischool.ir)
-A comprehensive, secure, and user-friendly full-stack EdTech platform engineered for institutional examinations.
+A comprehensive, secure, and user-friendly full-stack EdTech platform built for institutional examinations.
 - **Stress-Tested in Production:** Reliably served **~400 concurrent students** within a single hour and processed **3,545+ submitted answers** with zero downtime or data loss.
 - **Student-Centric UX:** Hyper-focused, distraction-free examination interface equipped with interval auto-save and built-in interactive tools (drawing whiteboard, image uploads).
 - **Security & Live Telemetry:** Real-time administrative monitoring, advanced anti-cheat behavioral detection, dynamic question/option shuffling, and automated report cards.
-- `PHP` · `Modern Web Technologies` · `Full-Stack Development` · `UI/UX Engineering` · `Real-Time Telemetry` · `High Concurrency`
+- `PHP` · `Modern Web Technologies` · `Full-Stack Development` · `UI/UX Design` · `Real-Time Telemetry` · `High Concurrency`
 
 #### 🎸 [Arpeggio Guitars — 3D Interactive Showcase](https://amirprgrmr.ir/portfolio/guitar/)
 An immersive WebGL & 3D product showcase for custom electric guitars.
@@ -52,7 +52,7 @@ An immersive WebGL & 3D product showcase for custom electric guitars.
 #### 🍲 [Nisha Food — Artisanal Food Platform](https://nisha-food.ir)
 A custom e-commerce solution built with tailor-made frontend components and a robust management backend.
 - **Design Philosophy:** Graphite-clean UX, modular cart flows, and an intuitive ordering process built from the ground up without bloated templates.
-- `Full-Stack Web` · `Custom Architecture` · `UI/UX Engineering`
+- `Full-Stack Web` · `Custom Architecture` · `UI/UX Design`
 
 #### 📋 [Taskora — Personal Planner & Productivity System](https://github.com/Amirprgrmr/Taskora)
 A distraction-free, local-first task and goal management tool designed for developers.
@@ -66,7 +66,7 @@ A distraction-free, local-first task and goal management tool designed for devel
   <tr>
     <td width="26%" valign="top"><strong>Frontend &amp; UI/UX</strong></td>
     <td width="74%">
-      <code>Next.js</code> · <code>React</code> · <code>TypeScript</code> · <code>JavaScript</code> · <code>Tailwind CSS</code> · <code>Three.js / WebGL</code> · <code>HTML5 &amp; CSS3</code> · <code>UI/UX Engineering</code>
+      <code>Next.js</code> · <code>React</code> · <code>TypeScript</code> · <code>JavaScript</code> · <code>Tailwind CSS</code> · <code>Three.js / WebGL</code> · <code>HTML5 &amp; CSS3</code> · <code>UI/UX Design</code>
     </td>
   </tr>
   <tr>
@@ -124,7 +124,7 @@ My primary daily workstation operates on **Parch Linux Desktop Edition** (an Arc
 
 ### 📬 Connect & Collaborate
 
-Have a project idea, an open question, or want to discuss architecture and software engineering? Reach out anytime:
+Have a project idea, an open question, or want to discuss web design and development? Reach out anytime:
 
 - **Portfolio & Blog:** [amirprgrmr.ir](https://amirprgrmr.ir)
 - **Direct Telegram:** [@Amirprgrmr](https://t.me/Amirprgrmr)
