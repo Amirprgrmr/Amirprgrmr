@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 124" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Taskora 2.0 — Super Planner — Offline-first Persian/RTL desktop planner with native Jalali calendar.">
+  <title>Taskora 2.0 — Super Planner</title>
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1119"/>
+      <stop offset="100%" stop-color="#080c12"/>
+    </linearGradient>
+    <radialGradient id="badgeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f59b" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#00f59b" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="cardClip">
+      <rect x="1" y="1" width="838" height="122" rx="14"/>
+    </clipPath>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif; }
+      .mono { font-family: "JetBrains Mono", "Fira Code", SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="838" height="122" rx="14" fill="url(#cardBg)" stroke="#202a38" stroke-width="1.2"/>
+  <g clip-path="url(#cardClip)">
+    <circle cx="793" cy="77" r="76" fill="url(#badgeGlow)"/>
+  </g>
+
+  <rect x="24" y="1" width="48" height="2" rx="1" fill="#00f59b"/>
+
+  <!-- Left Column -->
+  <text x="28" y="28" class="mono" font-size="10.5" font-weight="600" letter-spacing="1.0" fill="#00f59b">05 // PRODUCTIVITY · OFFLINE-FIRST</text>
+  <text x="28" y="56" class="sans" font-size="19" font-weight="700" letter-spacing="-0.3" fill="#edf4f2">Taskora 2.0 — Super Planner</text>
+  <text x="28" y="80" class="sans" font-size="13" font-weight="400" fill="#8b9baa">Offline-first Persian/RTL desktop planner with native Jalali calendar.</text>
+  <text x="28" y="104" class="mono" font-size="11" font-weight="500" fill="#64748b">Electron · JavaScript · Zero Build Step · 170+ Unit Tests</text>
+
+  <!-- Right Column: Status Pill -->
+  <g>
+    <rect x="651" y="16" width="163" height="24" rx="12" fill="#111824" stroke="#202a38" stroke-width="1"/>
+    <text x="788" y="31.5" text-anchor="end" class="mono" font-size="10" font-weight="600" letter-spacing="0.45" fill="#cbd5e1">4 STARS · 170+ TESTS</text>
+    <path d="M 795 31.5 L 802 24.5 M 797 24.5 H 802 V 29.5" fill="none" stroke="#00f59b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Right Column: Domain Glyph Box (42x42 at x=772, y=56) -->
+  <g>
+    <rect x="772" y="56" width="42" height="42" rx="10" fill="#111824" stroke="#202a38" stroke-width="1"/>
+    <g transform="translate(781, 65)">
+      <rect x="4" y="5.5" width="16" height="15" rx="2.5" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>
+      <path d="M 8.2 3.2 V 6.6 M 15.8 3.2 V 6.6 M 4 10.2 H 20" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M 8.8 15.2 L 10.9 17.3 L 15.3 12.9" fill="none" stroke="#00f59b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

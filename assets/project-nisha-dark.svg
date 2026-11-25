@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 124" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Nisha Food — Artisanal Food Store — Custom zero-framework PHP 8.2 MVC storefront with sub-50ms loads and RBAC.">
+  <title>Nisha Food — Artisanal Food Store</title>
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1119"/>
+      <stop offset="100%" stop-color="#080c12"/>
+    </linearGradient>
+    <radialGradient id="badgeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="cardClip">
+      <rect x="1" y="1" width="838" height="122" rx="14"/>
+    </clipPath>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif; }
+      .mono { font-family: "JetBrains Mono", "Fira Code", SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="838" height="122" rx="14" fill="url(#cardBg)" stroke="#202a38" stroke-width="1.2"/>
+  <g clip-path="url(#cardClip)">
+    <circle cx="793" cy="77" r="76" fill="url(#badgeGlow)"/>
+  </g>
+
+  <rect x="24" y="1" width="48" height="2" rx="1" fill="#22d3ee"/>
+
+  <!-- Left Column -->
+  <text x="28" y="28" class="mono" font-size="10.5" font-weight="600" letter-spacing="1.0" fill="#22d3ee">02 // E-COMMERCE · CUSTOM MVC</text>
+  <text x="28" y="56" class="sans" font-size="19" font-weight="700" letter-spacing="-0.3" fill="#edf4f2">Nisha Food — Artisanal Food Store</text>
+  <text x="28" y="80" class="sans" font-size="13" font-weight="400" fill="#8b9baa">Custom zero-framework PHP 8.2 MVC storefront with sub-50ms loads and RBAC.</text>
+  <text x="28" y="104" class="mono" font-size="11" font-weight="500" fill="#64748b">PHP 8.2+ · MySQL · Tailwind CSS · Argon2id · AJAX Cart</text>
+
+  <!-- Right Column: Status Pill -->
+  <g>
+    <rect x="697" y="16" width="117" height="24" rx="12" fill="#111824" stroke="#202a38" stroke-width="1"/>
+    <text x="788" y="31.5" text-anchor="end" class="mono" font-size="10" font-weight="600" letter-spacing="0.45" fill="#cbd5e1">SUB-50MS CORE</text>
+    <path d="M 795 31.5 L 802 24.5 M 797 24.5 H 802 V 29.5" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Right Column: Domain Glyph Box (42x42 at x=772, y=56) -->
+  <g>
+    <rect x="772" y="56" width="42" height="42" rx="10" fill="#111824" stroke="#202a38" stroke-width="1"/>
+    <g transform="translate(781, 65)">
+      <path d="M 5.6 8.6 H 18.4 C 19.1 8.6 19.7 9.1 19.8 9.8 L 20.5 18.4 C 20.6 19.5 19.7 20.4 18.6 20.4 H 5.4 C 4.3 20.4 3.4 19.5 3.5 18.4 L 4.2 9.8 C 4.3 9.1 4.9 8.6 5.6 8.6 Z" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 8.6 8.6 V 6.6 C 8.6 4.7 10.1 3.2 12 3.2 C 13.9 3.2 15.4 4.7 15.4 6.6 V 8.6" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 9.2 12.6 V 13.8 M 14.8 12.6 V 13.8" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

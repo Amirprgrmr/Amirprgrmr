@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 236" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Capability Map: Frontend and UI/UX, Backend and Data, Linux and Systems, Design and Motion">
+  <title>Amirali Homayoonzadeh | Capability Map</title>
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif; }
+      .mono { font-family: "JetBrains Mono", "Fira Code", SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <!-- Card 1: FRONTEND &amp; UI/UX -->
+  <g>
+    <rect x="0" y="0" width="412" height="110" rx="14" fill="url(#cardBg)"/>
+    <rect x="0.6" y="0.6" width="410.8" height="108.8" rx="13.4" fill="none" stroke="#e2e8f0" stroke-width="1.2"/>
+    <rect x="20" y="0" width="40" height="2" rx="1" fill="#059669"/>
+    <rect x="20" y="14" width="20" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <g transform="translate(20, 14)">
+      <rect x="4" y="4.5" width="12" height="11" rx="1.8" fill="none" stroke="#334155" stroke-width="1.35"/>
+      <path d="M 4 8 H 16" fill="none" stroke="#334155" stroke-width="1.35"/>
+      <path d="M 9 8 V 15.5" fill="none" stroke="#059669" stroke-width="1.35"/>
+    </g>
+    <text x="48" y="28" class="mono" font-size="11" font-weight="600" letter-spacing="0.8" fill="#059669">FRONTEND &amp; UI/UX</text>
+    <text x="392" y="28" text-anchor="end" class="mono" font-size="11" font-weight="600" fill="#64748b">06</text>
+    <g>
+      <rect x="20" y="45" width="63" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="51.5" y="61.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">Next.js</text>
+    </g>
+    <g>
+      <rect x="91" y="45" width="57" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="119.5" y="61.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">React</text>
+    </g>
+    <g>
+      <rect x="156" y="45" width="83" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="197.5" y="61.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">TypeScript</text>
+    </g>
+    <g>
+      <rect x="20" y="75" width="93" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="66.5" y="91.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">Tailwind CSS</text>
+    </g>
+    <g>
+      <rect x="121" y="75" width="70" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="156.0" y="91.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">Three.js</text>
+    </g>
+    <g>
+      <rect x="199" y="75" width="98" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="248.0" y="91.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">UI/UX Design</text>
+    </g>
+  </g>
+
+  <!-- Card 2: BACKEND &amp; DATA -->
+  <g>
+    <rect x="428" y="0" width="412" height="110" rx="14" fill="url(#cardBg)"/>
+    <rect x="428.6" y="0.6" width="410.8" height="108.8" rx="13.4" fill="none" stroke="#e2e8f0" stroke-width="1.2"/>
+    <rect x="448" y="0" width="40" height="2" rx="1" fill="#0284c7"/>
+    <rect x="448" y="14" width="20" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <g transform="translate(448, 14)">
+      <rect x="4" y="4.5" width="12" height="4.5" rx="1.3" fill="none" stroke="#334155" stroke-width="1.35"/>
+      <rect x="4" y="11" width="12" height="4.5" rx="1.3" fill="none" stroke="#334155" stroke-width="1.35"/>
+      <circle cx="6.5" cy="6.75" r="0.85" fill="#0284c7"/>
+      <circle cx="6.5" cy="13.25" r="0.85" fill="#0284c7"/>
+    </g>
+    <text x="476" y="28" class="mono" font-size="11" font-weight="600" letter-spacing="0.8" fill="#0284c7">BACKEND &amp; DATA</text>
+    <text x="820" y="28" text-anchor="end" class="mono" font-size="11" font-weight="600" fill="#64748b">06</text>
+    <g>
+      <rect x="448" y="45" width="76" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="486.0" y="61.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">PHP 8.2+</text>
+    </g>
+    <g>
+      <rect x="532" y="45" width="68" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="566.0" y="61.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">Node.js</text>
+    </g>
+    <g>
+      <rect x="608" y="45" width="68" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="642.0" y="61.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">Strapi 5</text>
+    </g>
+    <g>
+      <rect x="448" y="75" width="79" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="487.5" y="91.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">REST APIs</text>
+    </g>
+    <g>
+      <rect x="535" y="75" width="64" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="567.0" y="91.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">MySQL</text>
+    </g>
+    <g>
+      <rect x="607" y="75" width="61" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="637.5" y="91.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">SQLite</text>
+    </g>
+  </g>
+
+  <!-- Card 3: LINUX &amp; SYSTEMS -->
+  <g>
+    <rect x="0" y="126" width="412" height="110" rx="14" fill="url(#cardBg)"/>
+    <rect x="0.6" y="126.6" width="410.8" height="108.8" rx="13.4" fill="none" stroke="#e2e8f0" stroke-width="1.2"/>
+    <rect x="20" y="126" width="40" height="2" rx="1" fill="#0284c7"/>
+    <rect x="20" y="140" width="20" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <g transform="translate(20, 140)">
+      <path d="M 5 6.8 L 8.5 10 L 5 13.2" fill="none" stroke="#0284c7" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 10 13.2 H 15" fill="none" stroke="#334155" stroke-width="1.45" stroke-linecap="round"/>
+    </g>
+    <text x="48" y="154" class="mono" font-size="11" font-weight="600" letter-spacing="0.8" fill="#0284c7">LINUX &amp; SYSTEMS</text>
+    <text x="392" y="154" text-anchor="end" class="mono" font-size="11" font-weight="600" fill="#64748b">06</text>
+    <g>
+      <rect x="20" y="171" width="94" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="67.0" y="187.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">Parch / Arch</text>
+    </g>
+    <g>
+      <rect x="122" y="171" width="54" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="149.0" y="187.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">Bash</text>
+    </g>
+    <g>
+      <rect x="184" y="171" width="74" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="221.0" y="187.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">Python 3</text>
+    </g>
+    <g>
+      <rect x="20" y="201" width="102" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="71.0" y="217.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">PySide6 / Qt 6</text>
+    </g>
+    <g>
+      <rect x="130" y="201" width="50" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="155.0" y="217.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">C++</text>
+    </g>
+    <g>
+      <rect x="188" y="201" width="50" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="213.0" y="217.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">Git</text>
+    </g>
+  </g>
+
+  <!-- Card 4: DESIGN &amp; MOTION -->
+  <g>
+    <rect x="428" y="126" width="412" height="110" rx="14" fill="url(#cardBg)"/>
+    <rect x="428.6" y="126.6" width="410.8" height="108.8" rx="13.4" fill="none" stroke="#e2e8f0" stroke-width="1.2"/>
+    <rect x="448" y="126" width="40" height="2" rx="1" fill="#059669"/>
+    <rect x="448" y="140" width="20" height="20" rx="5" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <g transform="translate(448, 140)">
+      <path d="M 5 14 C 5 7 15 13 15 6" fill="none" stroke="#334155" stroke-width="1.35" stroke-linecap="round"/>
+      <circle cx="5" cy="14" r="1.5" fill="#059669"/>
+      <circle cx="15" cy="6" r="1.5" fill="#059669"/>
+    </g>
+    <text x="476" y="154" class="mono" font-size="11" font-weight="600" letter-spacing="0.8" fill="#059669">DESIGN &amp; MOTION</text>
+    <text x="820" y="154" text-anchor="end" class="mono" font-size="11" font-weight="600" fill="#64748b">04</text>
+    <g>
+      <rect x="448" y="171" width="85" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="490.5" y="187.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">Photoshop</text>
+    </g>
+    <g>
+      <rect x="541" y="171" width="113" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="597.5" y="187.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">Design Systems</text>
+    </g>
+    <g>
+      <rect x="662" y="171" width="79" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="701.5" y="187.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">Remotion</text>
+    </g>
+    <g>
+      <rect x="448" y="201" width="89" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="492.5" y="217.0" text-anchor="middle" class="sans" font-size="11.5" font-weight="500" fill="#334155">SVG Motion</text>
+    </g>
+  </g>
+</svg>

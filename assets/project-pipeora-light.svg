@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 124" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="PipeOra — PipeWire &amp; BlueZ Manager — Lightweight Qt 6 audio router for Arch &amp; Parch Linux on KDE Plasma.">
+  <title>PipeOra — PipeWire &amp; BlueZ Manager</title>
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif; }
+      .mono { font-family: "JetBrains Mono", "Fira Code", SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="838" height="122" rx="14" fill="url(#cardBg)" stroke="#e2e8f0" stroke-width="1.2"/>
+
+  <rect x="24" y="1" width="48" height="2" rx="1" fill="#0284c7"/>
+
+  <!-- Left Column -->
+  <text x="28" y="28" class="mono" font-size="10.5" font-weight="600" letter-spacing="1.0" fill="#0284c7">04 // LINUX DESKTOP · AUDIO ENGINE</text>
+  <text x="28" y="56" class="sans" font-size="19" font-weight="700" letter-spacing="-0.3" fill="#0f172a">PipeOra — PipeWire &amp; BlueZ Manager</text>
+  <text x="28" y="80" class="sans" font-size="13" font-weight="400" fill="#475569">Lightweight Qt 6 audio router for Arch &amp; Parch Linux on KDE Plasma.</text>
+  <text x="28" y="104" class="mono" font-size="11" font-weight="500" fill="#64748b">Python 3 · PySide6 (Qt 6) · PipeWire · BlueZ D-Bus · Wayland</text>
+
+  <!-- Right Column: Status Pill -->
+  <g>
+    <rect x="690" y="16" width="124" height="24" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="788" y="31.5" text-anchor="end" class="mono" font-size="10" font-weight="600" letter-spacing="0.45" fill="#334155">QT 6 · WAYLAND</text>
+    <path d="M 795 31.5 L 802 24.5 M 797 24.5 H 802 V 29.5" fill="none" stroke="#0284c7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Right Column: Domain Glyph Box (42x42 at x=772, y=56) -->
+  <g>
+    <rect x="772" y="56" width="42" height="42" rx="10" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+    <g transform="translate(781, 65)">
+      <path d="M 6 20 V 14.5 M 6 9.5 V 4" fill="none" stroke="#334155" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="6" cy="12" r="2.1" fill="none" stroke="#0284c7" stroke-width="1.5"/>
+      <path d="M 12 20 V 10.5 M 12 5.5 V 4" fill="none" stroke="#334155" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="12" cy="8" r="2.1" fill="none" stroke="#0284c7" stroke-width="1.5"/>
+      <path d="M 18 20 V 17.5 M 18 12.5 V 4" fill="none" stroke="#334155" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="18" cy="15" r="2.1" fill="none" stroke="#0284c7" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
